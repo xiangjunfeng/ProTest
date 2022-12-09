@@ -12,7 +12,8 @@ namespace LM.Razor.WebPro1
         public void Configure(IApplicationBuilder app,IWebHostEnvironment env)
         {
             if (!env.IsDevelopment()) 
-            {
+            { 
+
                 app.UseHsts(); //添加安全访问中间件
             }
 
