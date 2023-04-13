@@ -8,6 +8,7 @@
 
 using LM.Razor.WebPro1;
 
+//Æô¶¯
 Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webHostDefaults => {
     webHostDefaults.UseStartup<Startup>();
 }).Build().Run();

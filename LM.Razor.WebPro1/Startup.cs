@@ -14,7 +14,7 @@ namespace LM.Razor.WebPro1
             if (!env.IsDevelopment()) 
             { 
 
-                app.UseHsts(); //添加安全访问中间件
+                app.UseHsts(); //添加安全访问中间件 test
             }
 
             app.UseRouting(); //启动终结点路由（做选择）
